@@ -10,22 +10,22 @@
 
 <script type = "text/javascript">
 var function1 = function(){
-var total = 0;
+  var total = 0;
 
-for (var i = 0; i < 1000; i++)
-{
-    if (i%3 === 0 || i%5 ===0)
+  for (var i = 0; i < 1000; i++)
     {
-        total = total + i;
+      if (i%3 === 0 || i%5 ===0)
+        {
+          total = total + i;
+        }
     }
-}
 
-return(total);
+alert(total);
 };
 
-alert (total);
+function1();
 </script>
 
-<p><a href="#" onClick="function1">Display EulerProblem #1 Solution</a></p>
+<p><a href="#" onClick="function1()">Display EulerProblem #1 Solution</a></p>
 
 </html>
