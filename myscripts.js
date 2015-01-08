@@ -1,4 +1,3 @@
-<script type="text/javascript">
 var euler_1 = function(){
     var total = 0;
 
@@ -48,5 +47,4 @@ var fib_seq = function (){
     alert(total);
 
 };
-</script>
 
